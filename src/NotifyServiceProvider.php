@@ -20,7 +20,7 @@ class NotifyServiceProvider extends ServiceProvider
         $source = realpath($raw = __DIR__.'/../config/notify.php') ?: $raw;
 
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
-            $this->publishes([$source => config_path('notify.php')]);
+            $this->publishes([$source => config_path('notify.php')], 'config');
         } elseif ($this->app instanceof LumenApplication) {
             $this->app->configure('notify');
         }
