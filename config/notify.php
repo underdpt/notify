@@ -59,7 +59,7 @@ return [
         'notify_js' => [
             'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
             'https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.1/sweetalert2.min.js',
-            'https://cdn.jsdelivr.net/npm/promise-polyfill',
+            'https://cdn.jsdelivr.net/npm/promise-polyfill/dist/polyfill.min.js',
         ],
 
         'notify_css' => [
