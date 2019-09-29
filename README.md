@@ -118,10 +118,10 @@ notify()->error('I do not think that word means what you think it means.', 'Inco
 
 // Override global config options from 'config/notify.php'
 
-notify()->success('We do have the Kapua suite available.', 'Turtle Bay Resort', ['timeOut': 5000])
+notify()->success('We do have the Kapua suite available.', 'Turtle Bay Resort', ['timeOut' => 5000])
 
 // for pnotify driver
-notify()->alert('We do have the Kapua suite available.', 'Turtle Bay Resort', ['timeOut': 5000])
+notify()->alert('We do have the Kapua suite available.', 'Turtle Bay Resort', ['timeOut' => 5000])
 ```
 
 ### other api methods:
