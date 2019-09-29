@@ -217,7 +217,6 @@ return [
 ## Credits
 
 - [Younes Khoubza](https://github.com/yoeunes)
-- [Imane Bahiaoui](https://github.com/imanebahiaoui)
 - [All Contributors](../../contributors)
 
 ## License
