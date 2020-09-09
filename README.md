@@ -1,4 +1,4 @@
-<h1 align="center">Notify notification package for Laravel 5 and Lumen</h1>
+<h1 align="center">Notify notification package for Laravel and Lumen</h1>
 
 <p align="center">:eyes: This package helps you to add notifications to your Laravel 5 and Lumen projects.</p>
 

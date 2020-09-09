@@ -1,7 +1,7 @@
 {
     "name"             : "yoeunes/notify",
     "license"          : "MIT",
-    "description"      : "toastr.js, pnotify.js flush notifications for Laravel 5, 6, 7 and Lumen",
+    "description"      : "toastr.js, pnotify.js flush notifications for Laravel 5, 6, 7, 8 and Lumen",
     "homepage"         : "https://github.com/yoeunes/notify",
     "keywords"         : [
         "toastr",
@@ -16,6 +16,7 @@
         "laravel 5.8",
         "laravel 6",
         "laravel 7",
+        "laravel 8",
         "laravel notification",
         "laravel toastr",
         "laravel pnotify",
@@ -39,8 +40,8 @@
     ],
     "require"          : {
         "php"               : ">=7.0",
-        "illuminate/session": "^5.5 || ^6.0 || ^7.0",
-        "illuminate/support": "^5.5 || ^6.0 || ^7.0"
+        "illuminate/session": "^5.5 || ^6.0 || ^7.0 || ^8.0",
+        "illuminate/support": "^5.5 || ^6.0 || ^7.0 || ^8.0"
     },
     "require-dev"      : {
         "orchestra/testbench": "^2.0.4 || ^3.0 || ^4.0 || ^5.0",
