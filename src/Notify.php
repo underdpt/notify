@@ -8,6 +8,15 @@ use function in_array;
 use RuntimeException;
 use Yoeunes\Notify\Notifiers\NotifierInterface;
 
+/**
+ * @method error(string $message, string $title = '', array $options = [])
+ * @method info(string $message, string $title = '', array $options = [])
+ * @method success(string $message, string $title = '', array $options = [])
+ * @method warning(string $message, string $title = '', array $options = [])
+ * @method alert(string $message, string $title = '', array $options = [])
+ * @method notice(string $message, string $title = '', array $options = [])
+ * @method question(string $message, string $title = '', array $options = [])
+ */
 class Notify
 {
     const NOTIFICATIONS_NAMESPACE = 'notify::notifications';
